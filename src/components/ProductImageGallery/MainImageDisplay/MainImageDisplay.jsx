@@ -4,6 +4,7 @@ import {
   ZoomInIcon as ZoomInSVG,
   PackageIcon as PackageSVG,
 } from "~components/Icons/Icons";
+import { IconButton } from "@mui/material";
 
 const MainImageContainer = styled.div`
   flex: 1;
@@ -17,14 +18,17 @@ const MainImageContainer = styled.div`
   position: relative;
 `;
 
-const ZoomButton = styled.button`
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: ${({ theme }) => theme.palette.primary.main};
+const ZoomButton = styled(IconButton)`
+  &.MuiIconButton-root {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    padding: 5px;
+  }
+
+  &.MuiIconButton-root:hover {
+    background-color: ${({ theme }) => theme.palette.action.hover};
+  }
 `;
 
 const MainImageStyled = styled.img`
