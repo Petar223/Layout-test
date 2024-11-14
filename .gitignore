@@ -6,5 +6,5 @@ package-lock.json
 
 # Build output
 dist/
-
+# Dotenv file
 .env
