@@ -1,10 +1,28 @@
 import React, { useContext, useState, useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 import DataContext from "../../context/DataContext";
-import { CartIcon, FavoriteIcon, FactsSoftIcon } from "~components/Icons/Icons";
+import { Cart, Favorite, FactsSoft } from "~components/Icons";
 import IconButton from "@mui/material/IconButton";
 import Badge from "@mui/material/Badge";
 import QuantityEditor from "~components/QuantityEditor/QuantityEditor";
+
+const CartIcon = styled(Cart)`
+  width: 25px;
+  height: 25px;
+  fill: ${({ theme }) => theme.palette.grey[600]};
+`;
+
+const FavoriteIcon = styled(Favorite)`
+  width: 25px;
+  height: 25px;
+  fill: ${({ theme }) => theme.palette.grey[600]};
+`;
+
+const FactsSoftIcon = styled(FactsSoft)`
+  width: 25px;
+  height: 25px;
+  fill: ${({ theme }) => theme.palette.grey[600]};
+`;
 
 const HeaderContainer = styled.header`
   width: 100%;

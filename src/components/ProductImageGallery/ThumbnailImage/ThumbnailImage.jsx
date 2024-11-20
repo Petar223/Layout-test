@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { PackageIcon as PackageSVG } from "~components/Icons/Icons";
+import { Package as PackageSVG } from "~components/Icons";
 
 const ThumbnailCard = styled.div`
   border: 1.5px solid ${({ theme }) => theme.palette.grey[300]};

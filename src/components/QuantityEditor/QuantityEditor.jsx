@@ -1,9 +1,14 @@
 import React, { useState, useContext } from "react";
 import styled from "styled-components";
 import { TextField, Button } from "@mui/material";
-import { AddIcon } from "~components/Icons/Icons";
+import { Add } from "~components/Icons";
 import DataContext from "../../context/DataContext";
 import { useMediaQuery } from "@mui/material";
+
+const AddIcon = styled(Add)`
+  width: 25px;
+  height: 25px;
+`;
 
 const QuantityEditorContainer = styled.div`
   display: flex;
@@ -80,6 +85,6 @@ function QuantityEditor({ article }) {
       </StyledButton>
     </QuantityEditorContainer>
   );
-};
+}
 
 export default QuantityEditor;

@@ -1,0 +1,12 @@
+export { default as Add } from "./Add";
+export { default as Attachment } from "./Attachment";
+export { default as Cart } from "./Cart";
+export { default as Discount } from "./Discount";
+export { default as FactsSoft } from "./FactsSoft";
+export { default as FavoriteFilled } from "./FavoriteFilled";
+export { default as Favorite } from "./Favorite";
+export { default as Package } from "./Package";
+export { default as StarFilled } from "./StarFilled";
+export { default as Star } from "./Star";
+export { default as ZoomIn } from "./ZoomIn";
+export { default as ZoomOut } from "./ZoomOut";

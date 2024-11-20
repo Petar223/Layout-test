@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { AttachmentIcon } from "~components/Icons/Icons";
+import { Attachment } from "~components/Icons";
 
 const AttachmentContainer = styled.div`
   padding: 0;
@@ -33,7 +33,7 @@ function AttachmentList({ items }) {
       {items?.map((item, index) => (
         <AttachmentItem key={index}>
           <IconWrapper>
-            <AttachmentIcon width="16px" height="16px" />
+            <Attachment width="16px" height="16px" />
           </IconWrapper>
           <AttachmentLink
             href={item.file_link}

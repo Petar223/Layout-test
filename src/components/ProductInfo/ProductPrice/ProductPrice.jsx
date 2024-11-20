@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { DiscountIcon as DiscountSVG } from "~components/Icons/Icons";
+import { Discount as DiscountSVG } from "~components/Icons";
 
 const PriceContainer = styled.div`
   display: flex;

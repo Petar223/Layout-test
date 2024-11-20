@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import {
-  StarIcon as StarOutline,
-  StarFilledIcon as StarFilledSVG,
-} from "~components/Icons/Icons";
+  Star as StarOutline,
+  StarFilled as StarFilledSVG,
+} from "~components/Icons";
 
 const RatingContainer = styled.div`
   display: flex;

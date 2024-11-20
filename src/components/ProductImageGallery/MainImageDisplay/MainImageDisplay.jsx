@@ -1,9 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  ZoomInIcon as ZoomInSVG,
-  PackageIcon as PackageSVG,
-} from "~components/Icons/Icons";
+import { ZoomIn as ZoomInSVG, Package as PackageSVG } from "~components/Icons";
 import { IconButton } from "@mui/material";
 
 const MainImageContainer = styled.div`
